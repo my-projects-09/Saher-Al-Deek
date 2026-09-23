@@ -27,6 +27,7 @@ body{
   flex-direction: column;
   width: 100vw;
   overflow-x: hidden; /* يمنع أي تحرك أفقي غير مرغوب */
+  font-family: 'Tinos', 'Times New Roman', serif !important;
 }
 
 main{
@@ -70,16 +71,16 @@ main{
 }
 
 .en-font{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
   font-weight: 700;
 }
 
 .Amiri-font{
-  font-family: 'Amiri', serif;
+  font-family: 'Amiri', serif !important;
 }
 
 .Amiri-Quran-font{
-  font-family: 'Amiri Quran', serif;
+  font-family: 'Amiri Quran', serif !important;
 }
 
 .x{
