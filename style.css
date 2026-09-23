@@ -27,7 +27,7 @@ body{
   flex-direction: column;
   width: 100vw;
   overflow-x: hidden; /* يمنع أي تحرك أفقي غير مرغوب */
-  font-family: 'Tinos', 'Times New Roman', serif !important;
+  font-family: 'Tinos', 'Times New Roman', serif ;
 }
 
 main{
