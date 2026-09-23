@@ -27,7 +27,6 @@ body{
   flex-direction: column;
   width: 100vw;
   overflow-x: hidden; /* يمنع أي تحرك أفقي غير مرغوب */
-  font-family: 'Tinos', 'Times New Roman', serif ;
 }
 
 main{
@@ -71,16 +70,16 @@ main{
 }
 
 .en-font{
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 
 .Amiri-font{
-  font-family: 'Amiri', serif !important;
+  font-family: 'Amiri', serif;
 }
 
 .Amiri-Quran-font{
-  font-family: 'Amiri Quran', serif !important;
+  font-family: 'Amiri Quran', serif;
 }
 
 .x{
@@ -401,7 +400,7 @@ footer{
   align-items: center;
 
 
-  gap: 100px;
+  gap: 50px;
 }
 
 .in-footer{
@@ -411,11 +410,9 @@ footer{
   gap: 20px;
 }
 
-.left-footer{
-  background-color: #ff5858;
-}
 
-.about-me-box{
+
+.in-footer-box{
   padding: 20px;
 
   display: flex;
@@ -425,19 +422,19 @@ footer{
   gap: 10px;
 }
 
-.about-me{
+.card-footer{
   display: flex;
   align-items: center;
   justify-content: end;
   padding: 8px;
-  gap: 20px;
+  gap: 50px;
 
   border: #2196F3 2px solid;
   border-radius: 8px;
 
   transition: all 0.3s ease;
 
-  width: 200px;
+  width: 70vw;
   text-decoration: none;
 
   h3{
@@ -448,12 +445,12 @@ footer{
 
 
 .icon{
-  padding: 4px 6px;
+  padding: 10px 16px;
   border: #2196F3 2px solid;
-  border-radius: 8px;
+  border-radius: 12px;
   color: white;
 
-  font-size: 25px;
+  font-size: 40px;
 }
 
 .footer-logo{
@@ -578,6 +575,14 @@ footer{
     height: 200px;
   }
 
+  .card-footer{
+    width: 250px;
+  }
+
+  .icon{
+    font-size: 25px;
+    padding: 8px 10px;
+  }
   .cc{
     display: block;
   }
@@ -647,7 +652,7 @@ footer{
   }
 
   .project-card:hover  .project-img{
-    transform: scale(1.04);
+    transform: scale(1.05);
   }
 
   .hero-nav button:hover{
@@ -655,7 +660,7 @@ footer{
     box-shadow: var(--blue2) 0 5px 10px;
   }
 
-  .about-me:hover{
+  .card-footer:hover{
     transform: translateY(-8px);
     box-shadow: var(--blue3) 0 5px 10px;
   }
